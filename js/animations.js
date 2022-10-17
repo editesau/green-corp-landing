@@ -35,7 +35,7 @@ document.querySelector('#budget').addEventListener('change', function handleSele
     input.type = "text";
       
     formContainer.appendChild(input);
-    document.querySelector('#form form').insertBefore(formContainer, document.querySelector('.form__submit')); // Задание 3
+    document.querySelector('#form form').insertBefore(formContainer, document.querySelector('.form__submit'));
   }
  
   const otherInput = document.querySelector('.form__other-input');
